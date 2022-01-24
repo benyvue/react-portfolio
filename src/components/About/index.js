@@ -10,7 +10,7 @@ function About() {
       
       <div className="row justify-content-center" id="about-container">       
       <Col lg={6} md={12}>
-      <center><img src={myImage} className="my-image" alt="nicole-profile"/></center>
+      <center><img src={myImage} className="my-image" alt="ben-profile"/></center>
       <p class="name">ben vue</p>
       <p class="job">full stack web developer</p>
       <h2 class="education">about me</h2>
