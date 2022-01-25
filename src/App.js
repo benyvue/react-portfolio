@@ -13,7 +13,7 @@ function App() {
       name:'About Me'
     },
     {
-      name:'Projects'
+      name:'Portfolio'
     },
     {
       name:'Contact Me'
