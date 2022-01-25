@@ -17,20 +17,7 @@ function Nav(props){
             <h2 className="fs-1 col-4">Ben Vue</h2>
   
           
-          <ul className="col row w-100">
-            {navElements.map( (element) => (
-                <li 
-                className={`col ${currentNavElement === element.name && 'navActive'}`}
-                key={element.name}
-                >
-                <span onClick={() => {
-                  setCurrentNavElement(element)
-                }}>
-                  <h3>{element.name}</h3>
-                </span>
-              </li>
-            ))}
-          </ul>
+          
   
         </div>
   
