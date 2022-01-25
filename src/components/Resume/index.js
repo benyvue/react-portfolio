@@ -4,3 +4,5 @@ import Resume from '../../assets/resume.pdf'
 
 //resumepage component
 function ResumePage(){}
+
+export default ResumePage;

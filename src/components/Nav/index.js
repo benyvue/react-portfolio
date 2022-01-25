@@ -14,7 +14,7 @@ function Nav(props){
       <div className="container">
         <div className="row g-0">
 
-            <h2 className="fs-1 col-4">Mark Carriveau</h2>
+            <h2 className="fs-1 col-4">Ben Vue</h2>
   
           
           <ul className="col row w-100">
