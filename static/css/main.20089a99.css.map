@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.20089a99.css","mappings":"AACA,MACE,uBAAwB,CACxB,yBAA0B,CAC1B,qBACF","sources":["index.css"],"sourcesContent":["/* Color scheme */\n:root {\n  --primary-color: #113c66;\n  --secondary-color: #39a6b2;\n  --tertiary-color: #555;\n}"],"names":[],"sourceRoot":""}
