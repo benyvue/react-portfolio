@@ -10,7 +10,7 @@ function About(){
       <h3 className="pink-text text-center large-text col-12">About me</h3>
 
       <div className="about-me-text text-center">
-        <img src={personalPhoto}  alt='Mark Carriveau' className="img-style mt-2"/>
+        <img src={personalPhoto}  alt='Ben Vue' className="img-style mt-2"/>
   
         <p className="m-0 py-5 black-text fs-5">
         Hello, my name is Ben Vue. I am in the process of becoming a full stack web developer. 
