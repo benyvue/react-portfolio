@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import { validateEmail } from '../../utils/helpers'
+import { validateEmail } from '../../utils/helper'
 
 //contactpage component
 function ContactPage(){
@@ -40,7 +40,7 @@ function ContactPage(){
     }
   }
 
-  //submit the contact form console.log it for not since there is no backend
+  //submit the contact form console.log 
   function handleSubmit(evt){
     evt.preventDefault()
     console.log(formState)
