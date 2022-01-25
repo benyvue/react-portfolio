@@ -1,19 +1,45 @@
-import React from 'react';
-import Header from './components/Header';
-// import Footer from './components/Footer'; 
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React, { useState } from "react";
+import Nav from "./components/Nav";
+import Footer from "./components/Footer";
+import Homepage from "./components/Home";
 
-const App = () => {
+
+
+function App() {
+
+  //set up nav elements
+  const navElements = [
+    {
+      name:'About Me'
+    },
+    {
+      name:'Projects'
+    },
+    {
+      name:'Contact Me'
+    },
+    {
+      name:'Resume'
+    }
+    ]
+  
+    //set state for nav elements
+  const [currentNavElement, setCurrentNavElement] = useState(navElements[0])
+  
+
+
   return (
-    <>
-    <div>
-      <Header></Header>
-    </div>
-    {/* <div>
+    <div className="App">
+      <Nav
+      navElements={navElements}
+      currentNavElement={currentNavElement}
+      setCurrentNavElement={setCurrentNavElement}
+      ></Nav>
+      <main>
+        <Homepage currentNavElement={currentNavElement}></Homepage>
+      </main>
       <Footer></Footer>
-    </div> */}
-    </>
+    </div>
   );
 }
 
